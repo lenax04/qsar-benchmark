@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "qsar-benchmark: Machine learning-based QSAR models for predicting EGFR inhibitory activity"
+version: 0.1.0
+date-released: 2025-05-29
+license: MIT
+repository-code: "https://github.com/dawidx1233/qsar-benchmark"
+abstract: >
+  A systematic benchmark of machine learning models (Random Forest, XGBoost, SVM, MLP)
+  combined with five molecular descriptor sets (Morgan fingerprints, RDKit fingerprints,
+  MACCS keys, physicochemical descriptors, combined) for predicting EGFR inhibitory
+  activity (pIC50) from ChEMBL data. Includes full reproducibility via conda environment,
+  MLflow experiment tracking, and SHAP-based model interpretation.
+keywords:
+  - QSAR
+  - machine learning
+  - drug discovery
+  - cheminformatics
+  - EGFR
+  - molecular fingerprints
+  - SHAP
+  - benchmark
+authors:
+  - family-names: "Author"
+    given-names: "First"
+    affiliation: "Your Institution"
+    email: "your.email@institution.edu"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+references:
+  - type: article
+    title: "ChEMBL: towards direct deposition of bioassay data"
+    authors:
+      - family-names: "Mendez"
+        given-names: "D."
+    journal: "Nucleic Acids Research"
+    year: 2019
+    doi: "10.1093/nar/gky1075"
