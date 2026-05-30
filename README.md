@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![DOI](https://img.shields.io/badge/DOI-pending-lightgrey)](CITATION.cff)
 
-**authors: Lena Traczuk, Dawid Fleischer**
+**Authors: Lena Traczuk, Dawid Fleischer**
 
 **qsar-benchmark** is a systematic, fully reproducible benchmark of machine learning models for predicting EGFR kinase inhibitory activity (pIC50) from molecular structure. It compares four ML algorithms (Random Forest, XGBoost, SVM, MLP) across five molecular descriptor sets using 8,453 unique compounds from ChEMBL.
 
