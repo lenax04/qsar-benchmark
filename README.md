@@ -81,7 +81,7 @@ qsar-benchmark/
 ### Option 1: Conda (recommended)
 
 ```bash
-git clone https://github.com/dawidx1233/qsar-benchmark.git
+git clone https://github.com/lenax04/qsar-benchmark.git
 cd qsar-benchmark
 conda env create -f environment.yml
 conda activate qsar-benchmark
@@ -90,7 +90,7 @@ conda activate qsar-benchmark
 ### Option 2: pip
 
 ```bash
-git clone https://github.com/dawidx1233/qsar-benchmark.git
+git clone https://github.com/lenax04/qsar-benchmark.git
 cd qsar-benchmark
 pip install rdkit chembl-webresource-client xgboost shap scikit-learn \
             joblib mlflow seaborn matplotlib pandas numpy scipy
