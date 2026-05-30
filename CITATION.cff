@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use qsar-benchmark in your research, please cite it as below."
 type: software
 title: "qsar-benchmark: Machine learning-based QSAR models for predicting EGFR inhibitory activity"
-version: 0.1.0
-date-released: 2025-05-29
+version: "0.1.0"
+date-released: "2025-05-29"
 license: MIT
 repository-code: "https://github.com/dawidx1233/qsar-benchmark"
+url: "https://github.com/dawidx1233/qsar-benchmark"
 abstract: >
   A systematic benchmark of machine learning models (Random Forest, XGBoost, SVM, MLP)
   combined with five molecular descriptor sets (Morgan fingerprints, RDKit fingerprints,
@@ -22,17 +23,45 @@ keywords:
   - SHAP
   - benchmark
 authors:
-  - family-names: "Author"
-    given-names: "First"
-    affiliation: "Your Institution"
-    email: "your.email@institution.edu"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Traczuk"
+    given-names: "Lena"
+    email: "lenatraczuk4@gmail.com"
+  - family-names: "Fleischer"
+    given-names: "Dawid"
+    email: "dawidfleischer6@gmail.com"
 references:
   - type: article
     title: "ChEMBL: towards direct deposition of bioassay data"
     authors:
       - family-names: "Mendez"
-        given-names: "D."
+        given-names: "David"
+      - family-names: "Gaulton"
+        given-names: "Anna"
+      - family-names: "Bento"
+        given-names: "A. Patricia"
     journal: "Nucleic Acids Research"
+    volume: 47
+    issue: "D1"
     year: 2019
+    pages: "D930-D940"
     doi: "10.1093/nar/gky1075"
+  - type: article
+    title: "RDKit: Open-source cheminformatics"
+    authors:
+      - family-names: "Landrum"
+        given-names: "Greg"
+    journal: "Journal of Open Source Software"
+    year: 2016
+    doi: "10.5281/zenodo.5281"
+  - type: article
+    title: "A unified approach to interpreting model predictions"
+    authors:
+      - family-names: "Lundberg"
+        given-names: "Scott M."
+      - family-names: "Lee"
+        given-names: "Su-In"
+    journal: "Advances in Neural Information Processing Systems"
+    volume: 30
+    year: 2017
+    pages: "4765-4774"
+    doi: "10.48550/arXiv.1705.07874"
