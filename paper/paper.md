@@ -1,10 +1,8 @@
 # Machine learning-based QSAR models for predicting EGFR inhibitory activity: a comparative benchmark using ChEMBL data
 
-**Authors:** [First Author]^1^, [Second Author]^1^
+**Authors:** Dawid Fleischer, Lena Traczuk
 
-^1^ [Department], [Institution], [City], [Country]
-
-**Corresponding author:** [email]
+**Corresponding author:** dawidfleischer6@gmail.com, lenatraczuk4@gmail.com
 
 **Keywords:** QSAR, machine learning, EGFR, molecular fingerprints, cheminformatics, drug discovery, SHAP, benchmark
 
