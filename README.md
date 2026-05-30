@@ -1,9 +1,11 @@
-# qsar-benchmark
+# qsar-benchmark 
 
 [![CI](https://github.com/dawidx1233/qsar-benchmark/actions/workflows/ci.yml/badge.svg)](https://github.com/dawidx1233/qsar-benchmark/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![DOI](https://img.shields.io/badge/DOI-pending-lightgrey)](CITATION.cff)
+
+**authors: Lena Traczuk, Dawid Fleischer**
 
 **qsar-benchmark** is a systematic, fully reproducible benchmark of machine learning models for predicting EGFR kinase inhibitory activity (pIC50) from molecular structure. It compares four ML algorithms (Random Forest, XGBoost, SVM, MLP) across five molecular descriptor sets using 8,453 unique compounds from ChEMBL.
 
@@ -167,9 +169,9 @@ If you use this work, please cite:
 ```bibtex
 @software{qsar_benchmark_2025,
   title  = {qsar-benchmark: ML-based QSAR models for EGFR inhibitor activity prediction},
-  author = {[Author Name]},
+  author = {Lena Traczuk and Dawid Fleisher}
   year   = {2025},
-  url    = {https://github.com/dawidx1233/qsar-benchmark},
+  url    = {https://github.com/lenax04/qsar-benchmark},
   version = {0.1.0}
 }
 ```
